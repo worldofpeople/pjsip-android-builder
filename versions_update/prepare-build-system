@@ -88,9 +88,9 @@ then
     tar xjf pjsip.tar.bz2 && rm -rf pjsip.tar.bz2
 
 
-    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.4.5" ]
+    if [ "${PJSIP_DIR_NAME}" == "pjproject-2.8" ]
     then
-        echo "Fix BASH script error in 2.4.5 tag ..."
+        echo "Fix BASH script error in 2.8 tag ..."
         sed -i 's/TARGET_HOST+=-linux-android/TARGET_HOST="\${TARGET_HOST}-linux-android"/g' "${BASEDIR}/${PJSIP_DIR_NAME}/configure-android"
     fi
 

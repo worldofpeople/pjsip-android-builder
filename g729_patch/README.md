@@ -4,7 +4,7 @@ G.729 implementation included in this project is Open Source and has been taken 
 ## G.729 Manual Patch instructions
 All the operations described in this file have been also automated in the `install.sh` script, which is automatically executed after you download PJSIP sources with `./prepare-build-system`. The manual patching procedure is also described here for documentation purposes and for future use.
 
-The paths described here are relative to `pjproject-2.4.5` folder. Just add the lines marked with `+` where indicated by the snippets (original code snippets, which have been modified for PJSIP 2.4.5, have been taken from: http://trac.etellicom.com/wiki/G729CodecForPJSIP2x_iOS6)
+The paths described here are relative to `pjproject-2.8` folder. Just add the lines marked with `+` where indicated by the snippets (original code snippets, which have been modified for PJSIP 2.8, have been taken from: http://trac.etellicom.com/wiki/G729CodecForPJSIP2x_iOS6)
 
 ### build.mak.in
 ```
